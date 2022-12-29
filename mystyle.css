@@ -7,18 +7,6 @@ h1 {
     letter-spacing: 5px;
 }
  
-p {
-    width: 95%;
-    line-height: 1;
-    display: inline-block;
-    background-color: #03A9F4;
-    padding: 20px;
-    position: relative;
-    z-index: 999;
-    color: #fff;
-    letter-spacing: 2px;
-}
- 
 a {
     color: #fff;
     text-decoration: none;
@@ -28,7 +16,7 @@ a {
     border-radius: 5px;
     box-shadow: 0 4px 0 0 #9e2b23;
     font-weight: bold;
-    width: 450px;
+    width: 250px;
     text-align: center;
     margin: 20px auto 30px;
     letter-spacing: 5px;
