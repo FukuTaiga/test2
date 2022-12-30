@@ -5,7 +5,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>間違い探し！</title>
+<title>スマート農法</title>
 
 <link rel="stylesheet"href="mystyle.css">
 
@@ -25,27 +25,55 @@
 <body>
 
 <header>
-    <h1><font color=#000000>AR体験ゲーム！</font></h1>
+    <h1><font color=#000000>スマート農業</font></h1>
 </header>
-<main>
-    <h2>
-        <a href="https://fukutaiga.github.io/test1/" target="_blank">拡張現実起動</a>
-    </h2>
-</main>
+    
+ここではARの中にある「ドローン」「スマートフォン」「人参」を探してみよう！
+    
+    <html>
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8" />
+        <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    </head>
+    <!-- [prot] -->
+    <body>
+        <model-viewer
+          ar-modes="scene-viewer webxr quick-look"
+          src="./prot/prot.glb"
+          ios-src="./prot/prot.usdz"
+          camera-controls
+          auto-rotate
+          ar
+        ></model-viewer>
+    </body>
+</html>
 
 <ul>
-    <li class="parent" onclick="func1(this)">回答と解説
+    <li class="parent" onclick="func1(this)">遊び方
       <ul>
-        <li>回答｛｝</li>
-        <li>解説｛スマート農業はお年寄りの農家さんやまだまだ初心者の農家さんを助けるための技術なんだ！｝</li>
+        <li>次のページの一番上にある丸いボタンを押すとゲームがはじまります．</li>
       </ul>
     </li>
-    <li class="parent" onclick="func1(this)">次の問題へ
+    <li class="parent" onclick="func1(this)">回答と解説
       <ul>
-        <li>つぎのURL</li>
+        <li>回答｛「ドローン」は畑の上にとんでるよ．｝</li>
+        <li>回答｛「スマートフォン」は机の上においてあるよ．｝</li>
+        <li>回答｛「人参」は青いかごの中に入っているよ．｝</li>
+        <li>解説｛「スマート農業」は最先端技術を使って農家さんがいい野菜をたくさん作れたり，環境にいい農業ができるようにする農法のことです！｝</li>
       </ul>
     </li>
   </ul>
+    
+    
+<main>
+    <h2>
+        <a href="https://aramakimakihi.github.io/test/" target="_blank">次のゲーム</a>
+    </h2>
+</main>
+    
   <script>
     function func1(e) {
       e.classList.toggle("active");
@@ -56,4 +84,3 @@
         近畿大学工学部情報学科教育情報システム研究室
 </footer>
 </body>
-</html>
